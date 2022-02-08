@@ -1,0 +1,174 @@
+@import url("https://fonts.googleapis.com/css2?family=Kaushan+Script&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Encode+Sans&family=Kaushan+Script&display=swap");
+@import "null.css";
+@import url("https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Encode+Sans&family=Kaushan+Script&display=swap");
+.colorlinks, .block a, .navigation a {
+  color: azure;
+}
+
+.buttons, .item-tours__link a {
+  color: azure;
+  letter-spacing: 2.8px;
+  text-transform: uppercase;
+  display: inline-block;
+  background: #36363a;
+  width: 160px;
+  height: 40px;
+  border-radius: 30px;
+  text-align: center;
+  padding-top: 14px;
+}
+.buttons:hover, .item-tours__link a:hover {
+  background-color: #ff9100;
+}
+
+body {
+  background: rgba(204, 185, 185, 0);
+  font-family: "Encode Sans";
+  min-width: 1200px;
+  min-height: 900px;
+  height: 900px;
+  background-color: #55555a;
+}
+
+.navigation {
+  background-color: #36363a;
+  height: 60px;
+  position: relative;
+}
+.navigation li {
+  display: inline-block;
+  margin-top: 11px;
+}
+.navigation a {
+  font-size: 18px;
+  line-height: 40px;
+  margin-left: 30px;
+}
+.navigation a:hover {
+  color: #ff9100;
+}
+.navigation .logo {
+  font-size: 28px;
+  color: snow;
+  display: inline-block;
+  position: absolute;
+  left: 45%;
+  top: 17px;
+  font-family: "Kaushan Script";
+}
+
+.block {
+  width: 100%;
+  height: 900px;
+  background: url(/img/road2.jpg) 0 0/100% auto no-repeat;
+  margin: 0 auto;
+}
+.block .quote {
+  color: aliceblue;
+  font-size: 100px;
+  font-family: "Bebas Neue";
+  display: inline-block;
+  margin-top: 100px;
+  text-align: center;
+}
+.block .name {
+  color: aliceblue;
+  font-size: 30px;
+  font-family: "Bebas Neue";
+  display: inline-block;
+  text-align: center;
+  margin-top: 100px;
+  margin-left: 45%;
+}
+.block a {
+  letter-spacing: 2.8px;
+  text-transform: uppercase;
+  display: inline-block;
+  background: #36363a;
+  width: 160px;
+  height: 40px;
+  border-radius: 30px;
+  text-align: center;
+  padding-top: 14px;
+}
+.block a:hover {
+  background-color: #ff9100;
+}
+.block a:first-child {
+  margin-right: 300px;
+}
+.block .links {
+  margin-left: 30%;
+  margin-top: 160px;
+}
+
+.tours__body {
+  max-width: 1100px;
+  margin: 0 auto;
+  color: black;
+}
+.tours__header {
+  margin-bottom: 80px;
+}
+.tours__title {
+  font-family: "Bebas Neue";
+  text-align: center;
+  font-size: 40px;
+  margin-top: 50px;
+}
+.tours__row {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin: 0 -15px;
+}
+.tours__column {
+  -webkit-box-flex: 0;
+      -ms-flex: 0 0 33.333%;
+          flex: 0 0 33.333%;
+  padding: 0px 15px;
+}
+
+.title__text {
+  font-family: "Encode Sans";
+  text-align: center;
+  margin-top: 30px;
+  font-size: 20px;
+}
+
+.item-tours img {
+  width: 350px;
+  height: autopx;
+}
+.item-tours .item-tours__img img:hover {
+  -webkit-box-shadow: 0 0 70px black;
+          box-shadow: 0 0 70px black;
+}
+.item-tours__title {
+  text-align: center;
+  font-family: "Encode Sans";
+  font-weight: 900;
+  margin-top: 15px;
+  font-size: 20px;
+  position: relative;
+}
+.item-tours__title::after {
+  content: "";
+  position: absolute;
+  width: 160px;
+  bottom: -10px;
+  height: 2px;
+  left: 27%;
+  background-color: #000;
+}
+.item-tours__text {
+  font-family: "Encode Sans";
+  margin-top: 20px;
+  text-align: center;
+  font-size: 16px;
+}
+.item-tours__link {
+  text-align: center;
+  margin-top: 40px;
+}
